@@ -1,5 +1,5 @@
 Hi, I'm Riyan! 
-I'm a student at Dougherty Valley High School (Class of 2030). 
+I'm a student at Dougherty Valley High School. 
 This is where I am going to save my computer science and robotics projects.
 
 Project #1 (9th grade)
