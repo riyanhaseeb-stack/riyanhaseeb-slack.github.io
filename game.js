@@ -19,7 +19,7 @@ var enemy3 = createSprite(2650, -620);
 enemy3.setAnimation("Enemy");
 enemy3.scale = 0.2;
 
-// Create a variable to track direction (1 means moving right, -1 means moving left)
+
 var enemyDirection = 1;
 var enemy3Direction = 1;
 var text2 = createSprite(45, 300);
