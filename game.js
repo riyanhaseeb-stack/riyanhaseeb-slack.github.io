@@ -20,6 +20,7 @@ enemy3.setAnimation("Enemy");
 enemy3.scale = 0.2;
 
 var enemyDirection = 1;
+var enemy2Direction = 1;
 var enemy3Direction = 1;
 var text2 = createSprite(45, 300);
 text2.setAnimation("pixil-frame-0__1_-removebg-preview.png_1");
@@ -44,7 +45,7 @@ walls.add(createSprite(1040, 320, 60, 20));
 walls.add(createSprite(1200, 160, 60, 20));
 walls.add(createSprite(1370, 0, 60, 20));
 walls.add(createSprite(1600, -160, 60, 20));
-walls.add(createSprite(2000, -320, 300, 20));
+walls.add(createSprite(1950, -320, 300, 20));
 walls.add(createSprite(2450, -480, 400, 20));
 walls.add(createSprite(2750, -600, 60, 20));
 function draw() {
@@ -115,15 +116,15 @@ if (enemy3.x > 2700) {
 if (enemy3.x < 2200) {
   enemy3Direction = 1;  
 }
-  enemy2.x = enemy2.x + 2.3 * enemyDirection;
+  enemy2.x = enemy2.x + 2.3 * enemy2Direction;
 
 if (enemy2.x > 2700) {
-  enemyDirection = -1.6;
+  enemy2Direction = -1.6;
   enemy.setAnimation("Enemy2");
 }
 
 if (enemy2.x < 2200) {
-  enemyDirection = 1.3;
+  enemy2Direction = 1.3;
   enemy.setAnimation("Enemy");
 }
   if (lol.collide(enemy)) {
