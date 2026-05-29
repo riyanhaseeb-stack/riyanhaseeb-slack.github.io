@@ -19,7 +19,6 @@ var enemy3 = createSprite(2650, -620);
 enemy3.setAnimation("Enemy");
 enemy3.scale = 0.2;
 
-
 var enemyDirection = 1;
 var enemy3Direction = 1;
 var text2 = createSprite(45, 300);
@@ -44,12 +43,10 @@ walls.add(createSprite(960, 220, 60, 20));
 walls.add(createSprite(1040, 320, 60, 20));
 walls.add(createSprite(1200, 160, 60, 20));
 walls.add(createSprite(1370, 0, 60, 20));
-walls.add(createSprite(1650, -160, 60, 20));
-walls.add(createSprite(1950, -320, 200, 20));
+walls.add(createSprite(1600, -160, 60, 20));
+walls.add(createSprite(2000, -320, 300, 20));
 walls.add(createSprite(2450, -480, 400, 20));
 walls.add(createSprite(2750, -600, 60, 20));
-walls.add(createSprite(3150, -720, 110, 20));
-//theis applies the functions and draws the stuff
 function draw() {
   background("lightgray");
   playerGravity();
